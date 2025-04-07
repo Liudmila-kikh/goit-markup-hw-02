@@ -38,6 +38,7 @@ a {
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
+
 }
 
 .contacts {
@@ -59,7 +60,7 @@ a {
     color: #404bbf;
 }
 
-.title {
+.title-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -76,9 +77,11 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
+    cursor: pointer
 }
 
-.title-btn:hover {
+.title-btn:hover,
+.title-btn:focus {
     background: #404bbf;
 }
 
@@ -98,12 +101,21 @@ a {
     color: #434455;
 }
 
+.team {
+    background-color: #f4f4fd;
+}
+
+.time-item {
+    background-color: #FFFFFF;
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -131,10 +143,10 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
+    text-transform: capitalize color: #2e2f42;
 }
 
-.portfolio-projects {
+.portfolio-project {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -159,5 +171,9 @@ a {
 }
 
 .page-footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
 }
